@@ -1,7 +1,95 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+.container {
+    width: 100%;
+    height: 100%;
+    
+    }
+.page-logo{
+    margin:25px 0px 0px 10px;
+    height:50px;
+    width:50px;
+}
+ul li{
+    list-style:none;
+}
+header{
+    border:1px solid black;
+
+}
+.page-header{
+ 
+    background-color: grey;
+    height:100px;
+    margin: 10px 10px;
+
+
+}
+.page-header form{  
+    float: right;
+}
+input{
+    margin-top:40px;
+    height:20px;
+}
+header navbar nav{
+    border:1px solid black;
+    padding:10px;
+}
+header navbar nav ul{
+text-align: center; 
+}
+
+header navbar nav ul li{
+    display: inline; 
+    margin-right: 100px;
+
+}
+header navbar nav{
+    margin:10px;
+    
+}
+.left-sidebar{
+    border:1px solid black;
+}
+.right-sidebar{
+    float:right;
+}
+.page-body{
+    width:100%;
+    margin-top:10px
+}
+.page-body aside, .page-body section{
+    display: inline-block;  
+    border:1px solid black;  
+    vertical-align: top;
+}
+.page-body section{
+    width:59%;
+    margin:0px 6px 6px 0px;
+}
+
+.page-body aside{
+    width:19.9%;
+    height:612px
+}
+aside ul li{
+    margin: 15px 0px 0px 0px;
+}
+.post-img{
+    width:255px;
+    height:300px;
+    margin:1px
+
+
+}
+a{
+    text-decoration: none;
+}
+footer{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-top:10px;
 }
